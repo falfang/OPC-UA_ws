@@ -1,0 +1,5 @@
+/home/fal-server/OPCUA_ws/build/CMakeFiles/edit_cache.dir
+/home/fal-server/OPCUA_ws/build/CMakeFiles/rebuild_cache.dir
+/home/fal-server/OPCUA_ws/build/src/CMakeFiles/server_AddMethodToObject.dir
+/home/fal-server/OPCUA_ws/build/src/CMakeFiles/edit_cache.dir
+/home/fal-server/OPCUA_ws/build/src/CMakeFiles/rebuild_cache.dir
