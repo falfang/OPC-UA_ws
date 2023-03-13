@@ -1,0 +1,10 @@
+build
+bin
+lib
+share
+.vscode
+
+# For include folder
+include/open62541
+include/ms_stdint.h
+include/ziptree.h
