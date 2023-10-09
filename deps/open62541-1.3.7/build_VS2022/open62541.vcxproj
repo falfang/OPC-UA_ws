@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7761B1AE-74D6-3BAE-9D50-C1FC7BB968C3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>open62541</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open62541.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open62541.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open62541.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open62541.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open62541</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR="Debug";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR=\"Debug\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MDd.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/Debug/open62541.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/Debug/open62541.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR="Release";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR=\"Release\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/Release/open62541.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/Release/open62541.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR="MinSizeRel";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR=\"MinSizeRel\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/MinSizeRel/open62541.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/MinSizeRel/open62541.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR="RelWithDebInfo";open62541_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;UA_ARCHITECTURE_WIN32;CMAKE_INTDIR=\"RelWithDebInfo\";open62541_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\include;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;ws2_32.lib;iphlpapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/RelWithDebInfo/open62541.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/bin/RelWithDebInfo/open62541.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Library\CMake\bin\cmake.exe -SC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7 -BC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022 --check-stamp-file C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Library\CMake\share\cmake-3.24\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Library\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindOpenSSL.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Library\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Library\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Library\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\config.h.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\AssignSourceGroup.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\CMakeFindFrameworks.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindClangTools.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageMessage.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython\Support.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython3.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\SetGitBasedVersion.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_build.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_target.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_internal.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_public.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\open62541Config.cmake.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Library\CMake\bin\cmake.exe -SC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7 -BC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022 --check-stamp-file C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Library\CMake\share\cmake-3.24\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Library\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindOpenSSL.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Library\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Library\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Library\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\config.h.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\AssignSourceGroup.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\CMakeFindFrameworks.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindClangTools.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageMessage.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython\Support.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython3.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\SetGitBasedVersion.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_build.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_target.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_internal.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_public.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\open62541Config.cmake.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Library\CMake\bin\cmake.exe -SC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7 -BC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022 --check-stamp-file C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Library\CMake\share\cmake-3.24\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Library\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindOpenSSL.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Library\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Library\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Library\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\config.h.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\AssignSourceGroup.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\CMakeFindFrameworks.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindClangTools.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageMessage.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython\Support.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython3.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\SetGitBasedVersion.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_build.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_target.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_internal.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_public.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\open62541Config.cmake.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Library\CMake\bin\cmake.exe -SC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7 -BC:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022 --check-stamp-file C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/build_VS2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Library\CMake\share\cmake-3.24\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystem.cmake.in;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Library\CMake\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;C:\Library\CMake\share\cmake-3.24\Modules\FindGit.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindOpenSSL.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Library\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckCompilerFlag.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Library\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Library\CMake\share\cmake-3.24\Modules\SelectLibraryConfigurations.cmake;C:\Library\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeRCCompiler.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3.24.1\CMakeSystem.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\config.h.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\AssignSourceGroup.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\CMakeFindFrameworks.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindClangTools.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPackageMessage.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython\Support.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\FindPython3.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\SetGitBasedVersion.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_build.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\linting_target.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_internal.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\macros_public.cmake;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\cmake\open62541Config.cmake.in;C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_types.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_types_encoding_binary.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_types_print.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\types_generated.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\transport_generated.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\statuscodes.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_util.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_timer.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_connection.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_securechannel.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_securechannel_crypto.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_session.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_nodes.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_ns0.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_ns0_diagnostics.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_config.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_binary.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_utils.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_discovery.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_server_async.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_writer.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_writergroup.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_reader.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_readergroup.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_manager.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_ns0.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_view.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_method.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_session.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_attribute.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_discovery.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_subscription.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_monitoreditem.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_securechannel.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_nodemanagement.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_services_discovery_multicast.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_client.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_client_connect.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_client_discovery.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_client_highlevel.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_client_subscriptions.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\libc_time.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\pcg_basic.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\base64.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\aa_tree.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ziptree.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_pubsub_config.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\namespace0_generated.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_types_lex.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_subscription.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_subscription_monitoreditem.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_subscription_datachange.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_subscription_events.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.dir\$(Configuration)\ua_subscription_events_filter.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\securitypolicy_openssl_common.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_openssl_basic128rsa15.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_openssl_basic256.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_openssl_basic256sha256.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_openssl_aes128sha256rsaoaep.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_openssl_create_certificate.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_pki_openssl.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_log_stdout.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_accesscontrol_default.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_nodestore_ziptree.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_nodestore_hashmap.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_config_default.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_pki_none.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_securitypolicy_none.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_pubsub_udp.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_clock.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\ua_architecture_functions.obj" />
+    <Object Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.dir\$(Configuration)\network_tcp.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\ZERO_CHECK.vcxproj">
+      <Project>{EA14DB72-3B78-3EF5-9CEE-63BA1F8E7AFF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-object.vcxproj">
+      <Project>{5CBB396C-9070-3477-AB1B-DB031AAF4BAF}</Project>
+      <Name>open62541-object</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\open62541-plugins.vcxproj">
+      <Project>{50026CE0-966D-3F24-B718-6DB03F251021}</Project>
+      <Name>open62541-plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

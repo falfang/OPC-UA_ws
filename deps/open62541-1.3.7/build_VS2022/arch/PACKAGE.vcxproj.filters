@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\8992d5e02ae6148406099fc69a392725\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{745CE731-87F1-34C2-B300-7B105BB8DC92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_types.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_types_encoding_binary.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_types_print.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\types_generated.c">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\transport_generated.c">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\statuscodes.c">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_timer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_connection.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_securechannel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_securechannel_crypto.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_session.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_nodes.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_ns0.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_ns0_diagnostics.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_config.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_binary.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_utils.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_discovery.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_async.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_networkmessage.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_writer.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_writergroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_reader.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_readergroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_manager.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_ns0.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_view.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_method.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_session.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_attribute.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_discovery.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_subscription.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_monitoreditem.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_securechannel.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_nodemanagement.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services_discovery_multicast.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\client\ua_client.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\client\ua_client_connect.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\client\ua_client_discovery.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\client\ua_client_highlevel.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\client\ua_client_subscriptions.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\libc_time.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\pcg_basic.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\base64.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\aa_tree.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\ziptree.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_config.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\namespace0_generated.c">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_types_lex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_subscription.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_subscription_monitoreditem.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_subscription_datachange.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_subscription_events.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_subscription_events_filter.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\open62541_queue.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\pcg_basic.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\libc_time.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\base64.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_types_encoding_binary.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_util_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\transport_generated.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\transport_generated_handling.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_connection_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_securechannel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\ua_timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_session.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_subscription.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_networkmessage.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_manager.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_ns0.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_async.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_server_internal.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\server\ua_services.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\client\ua_client_internal.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\src\pubsub\ua_pubsub_config.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\namespace0_generated.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\config.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\ms_stdint.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\architecture_definitions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32\ua_architecture.h">
+      <Filter>arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\statuscodes.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\nodeids.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\common.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\types.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\types_generated.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\types_generated_handling.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\util.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\log.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\network.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\accesscontrol.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\pki.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\securitypolicy.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\pubsub.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\ziptree.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\aa_tree.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\nodestore.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\server_pubsub.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\server.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client_highlevel.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client_subscriptions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client_highlevel_async.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{745CE731-87F1-34C2-B300-7B105BB8DC92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch">
+      <UniqueIdentifier>{A1FAE2E8-80E2-3BF1-B551-8BD40790355E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\win32">
+      <UniqueIdentifier>{9EDA12E7-D7D7-312B-926D-8DA38DC80C42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build_VS2022">
+      <UniqueIdentifier>{32AB6798-CBCB-3D79-8C88-F2CE0BCB388E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build_VS2022\src_generated">
+      <UniqueIdentifier>{580B6259-8E05-347C-A2DC-B916F3E28FA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build_VS2022\src_generated\open62541">
+      <UniqueIdentifier>{064B7EBE-B70A-3226-A133-434B303F0787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps">
+      <UniqueIdentifier>{4602F260-E978-3FDE-9A8F-57F88550981D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{66D28EFF-D2D5-3D54-98BB-B10224C26E1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541">
+      <UniqueIdentifier>{15FBE05E-0600-336F-B5D3-065BBD48BF16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541\plugin">
+      <UniqueIdentifier>{DE0E017D-3D90-342E-9B0F-A87665B3CA8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{61EAF2D1-74EB-3477-B3EE-4D34BE1F1B6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{D1798FB5-CA1F-36CD-A693-EEDDBDF9C387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pubsub">
+      <UniqueIdentifier>{9A04DDDB-AA3F-3BB0-804F-D4E0883D71E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{C0A31A84-2BA0-32FC-9CF9-983DD9A638BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

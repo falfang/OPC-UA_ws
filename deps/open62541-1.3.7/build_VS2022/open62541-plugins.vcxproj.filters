@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\securitypolicy_openssl_common.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_openssl_basic128rsa15.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_openssl_basic256.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_openssl_basic256sha256.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_openssl_aes128sha256rsaoaep.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_openssl_create_certificate.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_pki_openssl.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\ua_log_stdout.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\ua_accesscontrol_default.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\ua_nodestore_ziptree.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\ua_nodestore_hashmap.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\ua_config_default.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\ua_pki_none.c">
+      <Filter>plugins\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\ua_securitypolicy_none.c">
+      <Filter>plugins\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\ua_pubsub_udp.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32\ua_clock.c">
+      <Filter>arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32\ua_architecture_functions.c">
+      <Filter>arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\network_tcp.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\securitypolicy_openssl_common.h">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\plugins\crypto\openssl\ua_openssl_version_abstraction.h">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\config.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\ms_stdint.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\architecture_definitions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\arch\win32\ua_architecture.h">
+      <Filter>arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\statuscodes.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\nodeids.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\common.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\types.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\types_generated.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\src_generated\open62541\types_generated_handling.h">
+      <Filter>build_VS2022\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\util.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\log.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\network.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\accesscontrol.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\pki.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\securitypolicy.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\pubsub.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\ziptree.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\deps\aa_tree.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\plugin\nodestore.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\server_pubsub.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\server.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client_highlevel.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client_subscriptions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\include\open62541\client_highlevel_async.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3ea0c0a9f78202637c24000adac893c5\statuscodes.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\3ea0c0a9f78202637c24000adac893c5\nodeids.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{745CE731-87F1-34C2-B300-7B105BB8DC92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch">
+      <UniqueIdentifier>{A1FAE2E8-80E2-3BF1-B551-8BD40790355E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\win32">
+      <UniqueIdentifier>{9EDA12E7-D7D7-312B-926D-8DA38DC80C42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build_VS2022">
+      <UniqueIdentifier>{32AB6798-CBCB-3D79-8C88-F2CE0BCB388E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build_VS2022\src_generated">
+      <UniqueIdentifier>{580B6259-8E05-347C-A2DC-B916F3E28FA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build_VS2022\src_generated\open62541">
+      <UniqueIdentifier>{064B7EBE-B70A-3226-A133-434B303F0787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps">
+      <UniqueIdentifier>{4602F260-E978-3FDE-9A8F-57F88550981D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{66D28EFF-D2D5-3D54-98BB-B10224C26E1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541">
+      <UniqueIdentifier>{15FBE05E-0600-336F-B5D3-065BBD48BF16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541\plugin">
+      <UniqueIdentifier>{DE0E017D-3D90-342E-9B0F-A87665B3CA8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{04C473CA-BA26-3A25-A595-8C86FB6C72AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\crypto">
+      <UniqueIdentifier>{717D41C1-CDB8-3844-A23E-407B4DF5EDFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\crypto\openssl">
+      <UniqueIdentifier>{A2E67316-11E3-3EA6-951B-36A397F16A17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

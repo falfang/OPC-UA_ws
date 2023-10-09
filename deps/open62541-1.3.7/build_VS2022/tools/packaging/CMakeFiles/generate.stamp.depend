@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Library/CMake/share/cmake-3.24/Modules/CPack.cmake
+C:/Library/CMake/share/cmake-3.24/Modules/CPackComponent.cmake
+C:/Library/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in
+C:/OPC-UA_ws/open62541_ws/deps/open62541-1.3.7/tools/packaging/CMakeLists.txt

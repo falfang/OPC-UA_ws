@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\client.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\client_highlevel.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\client_highlevel_async.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\client_subscriptions.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\common.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\nodestore.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\plugin_accesscontrol.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\plugin_log.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\plugin_network.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\plugin_pubsub_connection.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\pubsub.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\pubsub_TSN_loopback.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\pubsub_TSN_publisher.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\pubsub_nodeset_rt_publisher.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\pubsub_nodeset_rt_subscriber.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\server.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\services.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\statuscodes.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_client_firststeps.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_datatypes.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_pubsub_publish.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_pubsub_subscribe.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_alarms_conditions.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_datasource.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_events.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_firststeps.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_method.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_monitoreditems.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_object.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_variable.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\tutorial_server_variabletype.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\types.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\types_generated.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\063e61e9feefd3b951f80fb9f33104d7\util.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\CMakeFiles\5a2199c8c5578edeb1425b48fbda40f4\doc_latex.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\OPC-UA_ws\open62541_ws\deps\open62541-1.3.7\build_VS2022\doc\CMakeFiles\doc_latex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{745CE731-87F1-34C2-B300-7B105BB8DC92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
